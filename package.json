@@ -1,0 +1,26 @@
+{
+  "name": "circli",
+  "version": "1.0.0",
+  "author": "Mateusz Kłosiński <mkklosin@gmail.com>",
+  "description": "Open Source CSS Framework",
+  "main": "circli.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kl0sin/Circli.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "scss",
+    "flexbox",
+    "framework",
+    "responsive"
+  ],
+  "bugs": {
+    "url": "https://github.com/kl0sin/Circli/issues"
+  },
+  "homepage": "https://github.com/kl0sin/Circli#readme"
+}
