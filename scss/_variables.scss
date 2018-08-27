@@ -1,0 +1,27 @@
+// COLORS
+$white: #fff;
+$black: #000;
+
+$primary: #0028db;
+$secondary: #4b7bff;
+$light: #f9f2cf;
+$danger: #f60063;
+$fancy: #df6bed;
+
+  // GRID VARIABLES
+$grid-max-columns: 12;
+$grid-column-padding: 15px;
+
+// RESPONSIVE VARIABLES
+$column-1: 100% / ($grid-max-columns / 1);
+$column-2: 100% / ($grid-max-columns / 2);
+$column-3: 100% / ($grid-max-columns / 3);
+$column-4: 100% / ($grid-max-columns / 4);
+$column-5: 100% / ($grid-max-columns / 5);
+$column-6: 100% / ($grid-max-columns / 6);
+$column-7: 100% / ($grid-max-columns / 7);
+$column-8: 100% / ($grid-max-columns / 8);
+$column-9: 100% / ($grid-max-columns / 9);
+$column-10: 100% / ($grid-max-columns / 10);
+$column-11: 100% / ($grid-max-columns / 11);
+$column-12: 100% / ($grid-max-columns / 12);

@@ -8,7 +8,7 @@
     "build": "npm run build:sass && npm run build-autoprefix",
     "build:sass": "node-sass --output-style expanded --source-map true circli.scss css/circli.css",
     "build:watch": "npm run build:sass -- --watch",
-    "build:autoprefixer" : "postcss --use autoprefixer --map false --output css/circli.css css/circli.css"
+    "build:autoprefixer": "postcss --use autoprefixer --map false --output css/circli.css css/circli.css"
   },
   "repository": {
     "type": "git",
