@@ -8,13 +8,18 @@
     flex-shrink: 1;
     flex-basis: 0;
     flex-grow: 1;
+  }
+}
+
+@mixin column {
+  .column {
     &.is-1 {
       flex: none;
       width: $column-1;
     }
     &.is-2 {
-      flex: none;
-      width: $column-2;
+    flex: none;
+    width: $column-2;
     }
     &.is-3 {
       flex: none;
@@ -58,3 +63,43 @@
     }
   }
 }
+
+
+@media screen and (min-width: 576px) {
+  .columns {
+    &.phone {
+      display: flex;
+      @include column();
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .columns {
+    display: flex;
+    @include column();
+    &.tablet {
+      display: flex;
+      @include column();
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .columns {
+    &.laptop {
+      display: flex;
+      @include column();
+    }
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .columns {
+    &.desktop {
+      display: flex;
+      @include column();
+    }
+  }
+}
+

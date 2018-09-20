@@ -5,7 +5,7 @@
   "description": "Open Source CSS Framework",
   "main": "circli.scss",
   "scripts": {
-    "build": "npm run build:sass && npm run build-autoprefix",
+    "build": "npm run build:sass && npm run build:autoprefixer",
     "build:sass": "node-sass --output-style expanded --source-map true circli.scss css/circli.css",
     "build:watch": "npm run build:sass -- --watch",
     "build:autoprefixer": "postcss --use autoprefixer --map false --output css/circli.css css/circli.css"

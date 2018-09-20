@@ -1,0 +1,12 @@
+@import "variables";
+
+.card {
+  padding: 15px;
+  width: 100%;
+  background-color: $leather;
+  color: $white;
+  font-weight: 600;
+  &--primary {
+    background-color: $primary;
+  }
+}
