@@ -1,6 +1,6 @@
 {
   "name": "circli",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author": "Mateusz Kłosiński <mkklosin@gmail.com>",
   "description": "Open Source CSS Framework",
   "main": "circli.scss",
